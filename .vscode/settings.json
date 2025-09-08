@@ -1,0 +1,60 @@
+{
+    // Python IntelliSense settings - Keep IntelliSense but disable suggestions
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.completeFunctionParens": true,
+    "python.analysis.autoSearchPaths": true,
+    "python.analysis.diagnosticMode": "workspace",
+    "python.analysis.typeCheckingMode": "basic",
+    
+    // Editor settings - Enable suggestions and IntelliSense
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    },
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.acceptSuggestionOnCommitCharacter": true,
+    "editor.acceptSuggestionOnEnter": "on",
+    "editor.wordBasedSuggestions": "allDocuments",
+    "editor.suggest.showWords": true,
+    "editor.suggest.showSnippets": true,
+    "editor.parameterHints.enabled": true,
+    "editor.hover.enabled": true,
+    
+    // Keep IntelliSense features we want
+    "editor.definitionLinkOpensInPeek": true,
+    "editor.gotoLocation.multipleReferences": "peek",
+    "editor.gotoLocation.multipleDefinitions": "peek",
+    
+    // Auto-formatting and indentation
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.autoIndent": "full",
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "editor.detectIndentation": true,
+    
+    // Python-specific formatting
+    "python.formatting.provider": "none",
+    "python.linting.enabled": true,
+    "python.linting.pycodestyleEnabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.pylintEnabled": true,
+    
+    // Jupyter/Notebook settings
+    "jupyter.askForKernelRestart": true,
+    "jupyter.sendSelectionToInteractiveWindow": true,
+    
+    // GitHub Copilot - Enable suggestions
+    "github.copilot.enable": {
+        "*": true,
+        "python": true,
+        "jupyter": true
+    },
+    "github.copilot.editor.enableAutoCompletions": true,
+    
+    // IntelliCode - Enable AI suggestions
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "vsintellicode.features.python.deepLearning": "enabled"
+}
