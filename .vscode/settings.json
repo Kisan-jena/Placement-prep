@@ -48,9 +48,9 @@
     
     // GitHub Copilot - Enable suggestions
     "github.copilot.enable": {
-        "*": true,
-        "python": true,
-        "jupyter": true
+        "*": false,
+        "python": false,
+        "jupyter": false
     },
     "github.copilot.editor.enableAutoCompletions": true,
     
