@@ -210,7 +210,3 @@
 - [ ] Synonyms
 
 ---
-
-**Total Topics: 80**
-
-*Last Updated: October 9, 2025*
