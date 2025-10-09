@@ -1,0 +1,120 @@
+## Java Syllabus
+
+Legend: [basic] fundamentals · [imp] important for interviews · [adv] advanced
+
+### 1) Language Fundamentals [basic]
+- [ ] Syntax, identifiers, keywords, literals, comments [basic]
+- [ ] Data types (primitive vs reference), type casting, wrappers [basic]
+- [ ] Variables (local, instance, static), scope, lifetime [basic]
+- [ ] Operators (arithmetic, relational, logical, bitwise, ternary) [basic]
+- [ ] Control flow (if/else, switch, loops, break/continue, labels) [basic]
+- [ ] Methods, parameters, varargs, overloading, pass-by-value semantics [basic]
+- [ ] Packages, imports, access modifiers (public/protected/default/private) [basic]
+- [ ] String, StringBuilder, StringBuffer, string pool and immutability [imp]
+
+### 2) Object-Oriented Programming [imp]
+- [ ] Classes and objects, constructors, initializer blocks [basic]
+- [ ] Encapsulation, getters/setters, fluent builders [basic]
+- [ ] Inheritance, composition vs inheritance trade-offs [imp]
+- [ ] Polymorphism, method overriding, dynamic dispatch [imp]
+- [ ] Abstraction, interfaces vs abstract classes [imp]
+- [ ] equals(), hashCode(), toString() contracts and best practices [imp]
+- [ ] Immutability and defensive copying [imp]
+- [ ] Records, sealed classes (modern Java) [adv]
+
+### 3) Core Language Features [imp]
+- [ ] Generics (type parameters, wildcards, bounds, erasure) [imp]
+- [ ] Enums, annotations, meta-annotations [imp]
+- [ ] Reflection and dynamic proxies [adv]
+- [ ] Java Platform Module System (JPMS) [adv]
+- [ ] var (local variable type inference) [basic]
+
+### 4) Collections Framework [imp]
+- [ ] Collection hierarchy: Iterable, Collection, List, Set, Map, Queue/Deque [basic]
+- [ ] Implementations: ArrayList vs LinkedList, HashSet/TreeSet, HashMap/LinkedHashMap/TreeMap [imp]
+- [ ] Comparable vs Comparator, natural vs custom ordering [imp]
+- [ ] Iterators and fail-fast behavior [imp]
+- [ ] Concurrent collections (ConcurrentHashMap, CopyOnWriteArrayList, queues) [adv]
+- [ ] Big-O characteristics and when to choose what [imp]
+
+### 5) Functional Programming & Streams [imp]
+- [ ] Functional interfaces (Predicate, Function, Supplier, Consumer, etc.) [imp]
+- [ ] Lambdas and method references [imp]
+- [ ] Stream pipeline: creation, intermediate, terminal operations [imp]
+- [ ] Collectors (toList, groupingBy, mapping, reducing), custom collectors [imp]
+- [ ] Optional best practices (orElse vs orElseGet, map/flatMap) [imp]
+- [ ] Parallel streams: when to use, pitfalls [adv]
+
+### 6) Concurrency & Multithreading [imp]
+- [ ] Thread lifecycle, Runnable vs Callable, Future [basic]
+- [ ] Executors and thread pools, work stealing [imp]
+- [ ] Synchronization: intrinsic locks, synchronized blocks/methods [imp]
+- [ ] volatile, atomic classes, memory visibility and ordering [imp]
+- [ ] wait/notify/notifyAll, guarded blocks [imp]
+- [ ] Locks (ReentrantLock, ReadWriteLock, StampedLock) [adv]
+- [ ] Coordination: Semaphore, CountDownLatch, CyclicBarrier, Phaser [adv]
+- [ ] CompletableFuture and async composition patterns [imp]
+- [ ] Fork/Join framework and parallelism [adv]
+- [ ] Concurrency hazards: deadlock, livelock, starvation; detection/avoidance [imp]
+
+### 7) Exceptions & Error Handling [imp]
+- [ ] Checked vs unchecked exceptions, best practices [imp]
+- [ ] try-with-resources, AutoCloseable [imp]
+- [ ] Custom exceptions, wrapping and rethrowing [basic]
+
+### 8) I/O and NIO [imp]
+- [ ] java.io streams, readers/writers, buffering, charset basics [basic]
+- [ ] Files and Paths (NIO.2), directory walking, file attributes, WatchService [imp]
+- [ ] Channels, buffers, memory-mapped files [adv]
+- [ ] Serialization basics and pitfalls; alternatives (JSON, protobuf) [basic]
+
+### 9) Date & Time (java.time) [basic]
+- [ ] LocalDate/LocalTime/LocalDateTime, ZonedDateTime [basic]
+- [ ] Duration and Period, formatting/parsing with DateTimeFormatter [basic]
+
+### 10) Networking & HTTP [imp]
+- [ ] Sockets, TCP/UDP basics [basic]
+- [ ] HttpClient (Java 11+), synchronous vs asynchronous requests [imp]
+- [ ] WebSocket overview [adv]
+
+### 11) Database Access (JDBC) [imp]
+- [ ] Connections, statements, prepared statements, transactions [basic]
+- [ ] ResultSet handling, batching, auto-commit [basic]
+- [ ] Transaction isolation levels, locks, deadlocks [imp]
+- [ ] Connection pooling concepts (HikariCP overview) [imp]
+
+### 12) JVM, Memory, and Garbage Collection [adv]
+- [ ] JVM architecture: class loading, bytecode, JIT (C1/C2), tiered compilation [adv]
+- [ ] Runtime data areas: heap, stacks, metaspace, TLABs [imp]
+- [ ] Garbage collectors: Serial, Parallel, CMS (legacy), G1, ZGC, Shenandoah [adv]
+- [ ] GC logs, basic tuning heuristics, pause-time vs throughput [adv]
+- [ ] Common errors: OutOfMemoryError, StackOverflowError diagnostics [imp]
+- [ ] Object layout (JOL), escape analysis, allocation optimizations [adv]
+
+### 13) Tooling, Testing, and Build [basic]
+- [ ] JUnit 5, Mockito/AssertJ basics [basic]
+- [ ] Logging (SLF4J + Logback/Log4j2) [basic]
+- [ ] Maven/Gradle: project setup, dependencies, plugins, multi-module [basic]
+- [ ] Packaging: jar, fat/uber jar; versioning and semantic versioning [basic]
+
+### 14) Performance & Diagnostics [adv]
+- [ ] Java Flight Recorder (JFR) / Java Mission Control (JMC) [adv]
+- [ ] Profilers (async-profiler), heap/thread dumps analysis [adv]
+- [ ] Microbenchmarking with JMH; pitfalls of benchmarking [adv]
+
+### 15) Design Patterns & Best Practices [imp]
+- [ ] SOLID principles, clean code practices [imp]
+- [ ] Patterns: Singleton, Factory, Builder, Strategy, Observer, Decorator, Adapter, Template Method, Proxy [imp]
+- [ ] Defensive programming, null-handling, immutability, equals/hashCode correctness [imp]
+
+### 16) Interview-Specific Topics [imp]
+- [ ] HashMap internals (hashing, buckets, resize, tree bins), load factor [imp]
+- [ ] String interning and string pool behavior [imp]
+- [ ] final vs finally vs finalize [imp]
+- [ ] == vs equals, autoboxing/unboxing pitfalls [imp]
+- [ ] Java Memory Model basics: happens-before, visibility, ordering [adv]
+- [ ] ConcurrentHashMap internals and contention strategies [adv]
+
+---
+
+Tip: Use this syllabus as a checklist—revise [basic] first, then [imp], and finally [adv] as time permits. You can copy items into your notes and mark progress.
