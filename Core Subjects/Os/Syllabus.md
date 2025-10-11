@@ -3,41 +3,41 @@
 ## Operating System Syllabus (Topic-wise Breakdown)
 
 ### 1. Introduction to Operating Systems
-- [ ] Definition & Functions of OS
-- [ ] Types of OS: Batch, Time-Sharing, Distributed, Real-time, Embedded
-- [ ] System Components: Kernel, Shell, System Calls
+- [x] Definition & Functions of OS
+- [x] Types of OS: Batch, Time-Sharing, Distributed, Real-time, Embedded
+- [x] System Components: Kernel, Shell, System Calls
 - [ ] OS Services & Interface
 - [ ] Virtualization & Cloud-based OS concepts
 
 ---
 
 ### 2. Process Management
-- [ ] Concept of Process & Program
-- [ ] Process States & State Transition Diagram
-- [ ] Process Control Block (PCB)
-- [ ] Process Operations: Creation, Scheduling, Termination
-- [ ] Inter-Process Communication (IPC)
-  - [ ] Shared Memory
-  - [ ] Message Passing
+- [x] Concept of Process & Program
+- [x] Process States & State Transition Diagram
+- [x] Process Control Block (PCB)
+- [x] Process Operations: Creation, Scheduling, Termination
+- [x] Inter-Process Communication (IPC)
+  - [x] Shared Memory
+  - [x] Message Passing
   - [ ] Pipes, Sockets
 
 ---
 
 ### 3. CPU Scheduling
-- [ ] Scheduling Criteria (Throughput, Turnaround, Waiting Time, Response Time)
-- [ ] Scheduling Algorithms
-  - [ ] First Come-First Served (FCFS)
-  - [ ] Shortest Job Next (SJF/SRTF)
-  - [ ] Priority Scheduling (Preemptive & Non-Preemptive)
-  - [ ] Round Robin (RR)
-  - [ ] Multilevel Queue (MLQ)
-  - [ ] Multilevel Feedback Queue (MLFQ)
+- [x] Scheduling Criteria (Throughput, Turnaround, Waiting Time, Response Time)
+- [x] Scheduling Algorithms
+  - [x] First Come-First Served (FCFS)
+  - [x] Shortest Job Next (SJF/SRTF)
+  - [x] Priority Scheduling (Preemptive & Non-Preemptive)
+  - [x] Round Robin (RR)
+  - [x] Multilevel Queue (MLQ)
+  - [x] Multilevel Feedback Queue (MLFQ)
 - [ ] Real-Time Scheduling
 
 ---
 
 ### 4. Threads & Concurrency
-- [ ] Difference between Process & Thread
+- [x] Difference between Process & Thread
 - [ ] Multithreading Models
 - [ ] Thread Libraries (POSIX, Windows)
 - [ ] Benefits & Challenges of Multithreading
